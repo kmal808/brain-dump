@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'My Notes' # Website name
-baseURL: 'https://example.com/' # Website URL
+title: 'Brain Dump' # Website name
+baseURL: 'https://kmal-braindump.netlify.app' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -34,7 +34,6 @@ removePathAccents: true
 module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
-      disable: true
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
